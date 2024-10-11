@@ -1,0 +1,68 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Muda o layout para colunar */
+    align-items: center;
+}
+
+/* Container da página */
+nav {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 80px; /* Adiciona margem superior para evitar sobreposição */
+    width: 100%; /* Faz o nav ocupar a largura total da página */
+    max-width: 600px; /* Define um limite de largura para centralizar o conteúdo */
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 600px; /* Limita a largura do título para centralizar */
+    padding: 20px 0; /* Adiciona espaçamento interno no título */
+    background-color: white;
+    z-index: 1; /* Garante que o título fique acima de outros elementos */
+}
+
+/* Estilo da navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efeitos de hover */
+nav ul li a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Linha horizontal para separar seções */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
